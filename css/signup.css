@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/login-background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+input{
+    border: none;
+    outline: none;
+    margin: 10px 0;
+}
+
+.wraper{
+    border-radius: 10px;
+    width: 450px;
+    background-color: white;
+}
+
+h1{
+    margin: 30px 0;
+}
+
+.input-box{
+    border-bottom: 1px solid black;
+    margin-top: 15px;
+}
+
+.forget-password{
+    font-size: 10px;
+    margin-top: 15px;
+}
+
+.paragraph{
+    font-weight: bold;
+}
+
+.sign-up-btn{
+    width: 250px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 5px 0;
+    background-color: rgb(160,142,226);
+    color: white;
+}
+
+.sign-up-btn:hover{
+    background-color: green;
+}
+
+.agree{
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-size: 15px;
+}
+
+.to-login{
+    margin-top: 30px;
+}

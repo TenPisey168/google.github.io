@@ -1,0 +1,93 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    height: 300px;
+    object-fit: cover;
+}
+
+.clear{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    background-color: rgb(92, 92, 42) !important;
+    margin-bottom: 10px;
+}
+
+.navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-toggler{
+    background-color: rgb(10, 61, 44);
+
+}
+
+.navbar-nav li a {
+    color: #fff !important;
+}
+
+.main-title{
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 30px;
+}
+
+.main-title button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: wheat;
+}
+
+.main-title button:hover{
+    background-color: wheat;
+    transition: 0.3s linear;
+    color: white;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.card {
+    margin: 10px 0px;
+}
+
+.review {
+    text-align: center;
+}
+
+.checked {
+    color: orange;
+}
+
+/* main style */
+.main-body{
+    background-image: url("../img/homePage.jpg");
+    width: 100%;
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+col.modal-card{
+    height: 50vh;
+}
+
+.modal-card{
+    height: 100vh;
+}
+
+.product-title{
+    background-color: rgb(73, 73, 42);
+    font-size: 20px;
+    padding: 10px;
+    padding-left: 10px;
+}
